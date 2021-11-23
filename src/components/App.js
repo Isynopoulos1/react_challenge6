@@ -4,7 +4,7 @@ import React from "react";
 import Header from "./layout/header/Header";
 
 //IMPORT STYLES
-import "../styles/reset.css";
+import "./styles/reset.css";
 const App = () => {
   return (
     <>
