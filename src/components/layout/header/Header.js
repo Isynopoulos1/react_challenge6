@@ -4,7 +4,14 @@ import React from "react";
 import Logo from "../../elements/logo/LogoBehance";
 
 //IMPORT STYLES
-import { HeaderContainer, MenuNav, MenuLogin, NavLi } from "./Header.styles";
+import {
+  HeaderContainer,
+  MenuNav,
+  MenuLogin,
+  NavLi,
+  ButtonLogin,
+  SignUp
+} from "./Header.styles";
 
 const Header = () => {
   return (
@@ -17,7 +24,10 @@ const Header = () => {
           <ul>Vacantes</ul>
         </NavLi>
       </MenuNav>
-      <MenuLogin></MenuLogin>
+      <MenuLogin>
+        <ButtonLogin>Iniciar Sesión</ButtonLogin>
+        <SignUp>Registrarse</SignUp>
+      </MenuLogin>
     </HeaderContainer>
   );
 };
