@@ -10,7 +10,8 @@ import {
   MenuLogin,
   NavLi,
   ButtonLogin,
-  SignUp
+  SignUp,
+  MenuImg
 } from "./Header.styles";
 
 const Header = () => {
@@ -27,6 +28,10 @@ const Header = () => {
       <MenuLogin>
         <ButtonLogin>Iniciar Sesión</ButtonLogin>
         <SignUp>Registrarse</SignUp>
+        <MenuImg
+          src="https://ik.imagekit.io/ppayaz/react_challenge6/adobe-logo-black-and-white-3_cyuSCwAF6.png?updatedAt=1637642278844"
+          alt="logo"
+        />
       </MenuLogin>
     </HeaderContainer>
   );
