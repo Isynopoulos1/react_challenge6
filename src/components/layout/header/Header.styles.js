@@ -4,6 +4,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   font-size: 20px;
   justify-content: center;
+  border-bottom: 1px solid #ececec;
 `;
 
 export const MenuNav = styled.div`
@@ -42,7 +43,7 @@ export const ButtonLogin = styled.button`
   font-size: 12px;
   border-radius: 20px;
   cursor: pointer;
-  border: 2px solid #e8e8e8;
+  border: 1px solid #e8e8e8;
   background-color: #fff;
   margin-right: 10px;
 `;
