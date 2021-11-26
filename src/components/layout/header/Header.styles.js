@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   display: flex;
   font-size: 20px;
-
-  padding: 20px;
-  max-width: 1400px:
+  justify-content: center;
 `;
 
 export const MenuNav = styled.div`
@@ -13,12 +11,16 @@ export const MenuNav = styled.div`
   font-size: 20px;
   justify-content: center;
   align-items: center;
+  right: 0;
+  margin-right: 200px;
 `;
 export const MenuLogin = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  grid-gap: 240 px;
+  left: 0;
 `;
 
 export const NavLi = styled.ul`
@@ -28,6 +30,7 @@ export const NavLi = styled.ul`
   margin-left: 20px;
   grid-gap: 10px;
   font-weight: normal;
+  width: 800px;
 `;
 export const ButtonLogin = styled.button`
   display: flex;
