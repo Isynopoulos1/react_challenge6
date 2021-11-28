@@ -1,13 +1,20 @@
 import React from "react";
 
-import { SearchBar } from "./Input.styles";
+import { SearchBar, InputWrapper, InputList } from "./Input.styles";
 
 const Input = () => {
   return (
-    <SearchBar
-      placeholder="Adéntrate en el mundo creativo mientras trabajas"
-      name="name"
-    />
+    <InputWrapper>
+      <SearchBar
+        placeholder="Adéntrate en el mundo creativo mientras trabajas"
+        name="name"
+      />
+      <nav>
+        <ul>hola</ul>
+        <ul>hola</ul>
+        <ul>hola</ul>
+      </nav>
+    </InputWrapper>
   );
 };
 
