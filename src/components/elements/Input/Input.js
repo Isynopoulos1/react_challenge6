@@ -1,6 +1,6 @@
 import React from "react";
 
-import { SearchBar, InputWrapper, InputList } from "./Input.styles";
+import { SearchBar, InputWrapper } from "./Input.styles";
 
 const Input = () => {
   return (
@@ -9,11 +9,6 @@ const Input = () => {
         placeholder="Adéntrate en el mundo creativo mientras trabajas"
         name="name"
       />
-      <nav>
-        <ul>hola</ul>
-        <ul>hola</ul>
-        <ul>hola</ul>
-      </nav>
     </InputWrapper>
   );
 };

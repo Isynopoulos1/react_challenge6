@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const InputWrapper = styled.div`
   display: flex;
   width: 100%;
+  border-radius: 30px;
+  border: 1px solid #e8e8e8;
 `;
 export const SearchBar = styled.input`
   display: flex;
@@ -10,9 +12,9 @@ export const SearchBar = styled.input`
   justify-content: center;
   width: 100%;
   font-size: 16px;
-  border-radius: 30px;
-  border: 1px solid  #e8e8e8;
+  border: none;
   padding 10px;
+  border-radius: 30px;
 `;
 
 export const nav = styled.nav`
