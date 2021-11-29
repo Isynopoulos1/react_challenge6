@@ -1,7 +1,7 @@
 import React from "react";
 
 //IMPORT STYLES
-import { MainContainer } from "./Main.styles";
+import { MainContainer, Filters } from "./Main.styles";
 
 //IMPORT COMPONENTS
 import Input from "../../elements/Input/Input";
@@ -11,7 +11,13 @@ const Main = () => {
   return (
     <MainContainer>
       <Input />
-      <Button />
+      <Filters>
+        <Button label="Sectores creativos" icon="people" />
+        <Button label="Herramientas" icon="people" />
+        <Button label="Herramientas" icon="people" />
+        <Button label="Herramientas" icon="people" />
+        <Button label="Herramientas" icon="people" />
+      </Filters>
     </MainContainer>
   );
 };

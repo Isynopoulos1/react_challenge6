@@ -9,3 +9,11 @@ export const MainContainer = styled.div`
   padding-right: 20px;
   padding-left: 20px;
 `;
+export const Filters = styled.div`
+  display: flex;
+  grid-gap: 20px;
+  margin-top: 20px;
+`;
+export const Button = styled.button`
+  display: flex;
+`;
