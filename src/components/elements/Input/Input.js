@@ -1,6 +1,6 @@
 import React from "react";
 
-import { SearchBar, InputWrapper, InputList } from "./Input.styles";
+import { SearchBar, InputWrapper, InputList, Proyectos } from "./Input.styles";
 
 const Input = () => {
   return (
@@ -10,7 +10,9 @@ const Input = () => {
         name="name"
       />
       <InputList>
-        <ul>Proyectos</ul>
+        <Proyectos>
+          <ul>Proyectos</ul>
+        </Proyectos>
         <ul>Imágenes</ul>
         <ul>Prototipos</ul>
         <ul>Personas</ul>

@@ -28,5 +28,17 @@ export const InputList = styled.div`
   font-size: 10px;
   font-family: helvetica;
   grid-gap: 20px;
-  font-weight: bold;
+  font-weight: 600;
+`;
+export const Proyectos = styled.button`
+  display: flex;
+  font-size: 10px;
+  font-family: helvetica;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 30px;
+  justify-content: center;
+  width: 70px;
 `;
