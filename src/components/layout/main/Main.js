@@ -5,13 +5,13 @@ import { MainContainer } from "./Main.styles";
 
 //IMPORT COMPONENTS
 import Input from "../../elements/Input/Input";
-import Specs from "../../elements/specs/Specs";
+import Button from "../../elements/button/Button";
 
 const Main = () => {
   return (
     <MainContainer>
       <Input />
-      <Specs />
+      <Button />
     </MainContainer>
   );
 };
