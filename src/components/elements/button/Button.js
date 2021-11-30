@@ -2,21 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //IMPORT COMPONENTS
-import {
-  BtnWrapper,
-  ButtonStyle,
-  NameFilter,
-  Name,
-  Icon,
-  IconStyle
-} from "./Button.styles";
+import { BtnWrapper, NameFilter, IconStyle } from "./Button.styles";
 
 const Button = ({ label, icon }) => {
   return (
     <BtnWrapper>
-      <NameFilter>
-        {label} {icon}
-      </NameFilter>
+      <NameFilter> {label}</NameFilter>
+      <IconStyle>{icon}</IconStyle>
     </BtnWrapper>
   );
 };
