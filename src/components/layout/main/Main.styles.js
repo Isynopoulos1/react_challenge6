@@ -11,7 +11,7 @@ export const MainContainer = styled.div`
 `;
 export const Filters = styled.div`
   display: flex;
-  grid-gap: 20px;
+  width: 100%;
   margin-top: 20px;
 `;
 export const Button = styled.button`

@@ -13,7 +13,7 @@ const Main = () => {
       <Input />
       <Filters>
         <Button label="Sectores creativos" icon="people" />
-        <Button label="Herramientas" icon="people" />
+        <Button label="Herramientas" icon="person" />
         <Button label="Herramientas" icon="people" />
         <Button label="Herramientas" icon="people" />
         <Button label="Herramientas" icon="people" />

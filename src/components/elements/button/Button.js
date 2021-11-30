@@ -2,12 +2,21 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //IMPORT COMPONENTS
-import { BtnWrapper, ButtonStyle } from "./Button.styles";
+import {
+  BtnWrapper,
+  ButtonStyle,
+  NameFilter,
+  Name,
+  Icon,
+  IconStyle
+} from "./Button.styles";
 
-const Button = ({ label }) => {
+const Button = ({ label, icon }) => {
   return (
     <BtnWrapper>
-      <ButtonStyle>{label}</ButtonStyle>
+      <NameFilter>
+        {label} {icon}
+      </NameFilter>
     </BtnWrapper>
   );
 };
@@ -19,7 +28,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   label: "button 1",
-  icon: "text"
+  icon: ""
 };
 
 export default Button;
