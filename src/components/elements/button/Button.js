@@ -7,8 +7,8 @@ import { BtnWrapper, NameFilter, IconStyle } from "./Button.styles";
 const Button = ({ label, icon }) => {
   return (
     <BtnWrapper>
-      <NameFilter> {label}</NameFilter>
       <IconStyle>{icon}</IconStyle>
+      <NameFilter> {label}</NameFilter>
     </BtnWrapper>
   );
 };
