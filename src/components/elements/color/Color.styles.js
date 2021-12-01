@@ -36,5 +36,5 @@ export const IconArrow = styled.span`
   align-items: center;
   font-family: "Material Icons";
   font-size: 10px;
-  padding: 3px;
+  padding: 5px;
 `;

@@ -26,7 +26,7 @@ export const IconStyle = styled.span`
   align-items: center;
   font-family: "Material Icons";
   font-size: 10px;
-  padding: 3px;
+  padding: 5px;
 `;
 export const IconStyle2 = styled.span`
   display: flex;
@@ -34,5 +34,5 @@ export const IconStyle2 = styled.span`
   align-items: center;
   font-family: "Material Icons";
   font-size: 10px;
-  padding: 3px;
+  padding: 5px;
 `;
