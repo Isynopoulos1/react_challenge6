@@ -7,6 +7,7 @@ import { MainContainer, Filters, BtnFilter } from "./Main.styles";
 import Input from "../../elements/Input/Input";
 import Button from "../../elements/button/Button";
 import Sort from "../../elements/sort/Sort";
+import Color from "../../elements/color/Color";
 
 const Main = ({ icon }) => {
   return (
@@ -24,11 +25,7 @@ const Main = ({ icon }) => {
             icon="construction"
             icon2="expand_more"
           />
-          <Button
-            label="Color"
-            src="https://ik.imagekit.io/ppayaz/ppayaz-website/flag_fQzludPB8.png?updatedAt=1634221524609"
-            icon2="expand_more"
-          />
+          <Color />
           <Button label="Ubicación" icon="location_on" icon2="expand_more" />
           <Button label="Centros" icon="school" icon2="expand_more" />
         </BtnFilter>
