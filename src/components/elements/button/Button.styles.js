@@ -24,3 +24,11 @@ export const IconStyle = styled.span`
   font-size: 10px;
   padding: 3px;
 `;
+export const IconStyle2 = styled.span`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Material Icons";
+  font-size: 10px;
+  padding: 3px;
+`;
