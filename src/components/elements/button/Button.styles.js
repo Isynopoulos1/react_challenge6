@@ -7,6 +7,7 @@ export const BtnWrapper = styled.div`
   border-radius: 3px;
   margin-right: 10px;
   padding: 4px 8px 4px 8px;
+  cursor: pointer;
 `;
 export const NameFilter = styled.span`
   display: flex;

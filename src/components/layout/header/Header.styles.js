@@ -32,6 +32,7 @@ export const NavLi = styled.ul`
   grid-gap: 10px;
   font-weight: normal;
   width: 800px;
+  cursor: pointer;
 `;
 export const ButtonLogin = styled.button`
   display: flex;
@@ -67,4 +68,5 @@ export const MenuImg = styled.img`
   width: 50px;
   margin-left: 20px;
   margin-right: 0;
+  cursor: pointer;
 `;

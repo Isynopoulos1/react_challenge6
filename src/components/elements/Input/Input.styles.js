@@ -29,6 +29,7 @@ export const InputList = styled.div`
   font-family: helvetica;
   grid-gap: 20px;
   font-weight: 600;
+  cursor: pointer;
 `;
 export const Proyectos = styled.button`
   display: flex;
@@ -41,4 +42,5 @@ export const Proyectos = styled.button`
   border-radius: 30px;
   justify-content: center;
   width: 70px;
+  cursor: pointer;
 `;
