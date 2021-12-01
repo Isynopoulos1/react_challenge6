@@ -1,7 +1,7 @@
 import React from "react";
 
 //IMPORT STYLES
-import { MainContainer, Filters, Recommended, BtnFilter } from "./Main.styles";
+import { MainContainer, Filters, BtnFilter } from "./Main.styles";
 
 //IMPORT COMPONENTS
 import Input from "../../elements/Input/Input";
@@ -24,7 +24,11 @@ const Main = ({ icon }) => {
             icon="construction"
             icon2="expand_more"
           />
-          <Button label="Color" icon="location_on" icon2="expand_more" />
+          <Button
+            label="Color"
+            src="https://ik.imagekit.io/ppayaz/ppayaz-website/flag_fQzludPB8.png?updatedAt=1634221524609"
+            icon2="expand_more"
+          />
           <Button label="Ubicación" icon="location_on" icon2="expand_more" />
           <Button label="Centros" icon="school" icon2="expand_more" />
         </BtnFilter>

@@ -8,6 +8,9 @@ export const BtnWrapper = styled.div`
   margin-right: 10px;
   padding: 4px 8px 4px 8px;
   cursor: pointer;
+  &:hover {
+    background-color:white;
+    border: 1px solid black;
 `;
 export const NameFilter = styled.span`
   display: flex;
