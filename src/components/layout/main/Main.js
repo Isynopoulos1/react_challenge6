@@ -28,7 +28,7 @@ const Main = ({ icon }) => {
           <Button label="Ubicación" icon="location_on" icon2="expand_more" />
           <Button label="Centros" icon="school" icon2="expand_more" />
         </BtnFilter>
-        <Sort />
+        <Sort icon="expand_more" />
       </Filters>
     </MainContainer>
   );

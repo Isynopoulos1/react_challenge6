@@ -7,8 +7,9 @@ const Sort = ({ icon }) => {
   return (
     <SortMenu>
       <Order>Ordenar</Order>
-      <Recommend>Recomendado</Recommend>
-      <Selector>{icon}</Selector>
+      <Recommend>
+        Recomendado <Selector>{icon}</Selector>
+      </Recommend>
     </SortMenu>
   );
 };
