@@ -8,27 +8,40 @@ import {
   Author,
   Icon1,
   Icon2,
-  CardImage
+  CardImage,
+  CardDetail,
+  Scope,
+  Project,
+  Image
 } from "./Card.styles";
 
 const Card = ({ image, title, author }) => {
   return (
     <CardWrapper>
-      <CardImage src={image} />
-      <Title>
-        <p>{title}</p>
-      </Title>
-      <Author>
-        <p>{author}</p>
-      </Author>
-      <Icon1>favorite_border</Icon1>
-      <Icon2>favorite_border</Icon2>
+      <Image>
+        <CardImage src={image} />
+      </Image>
+
+      <CardDetail>
+        <Project>
+          <Title>
+            <p>{title}</p>
+          </Title>
+          <Author>
+            <p>{author}</p>
+          </Author>
+        </Project>
+        <Scope>
+          <Icon1>favorite_border</Icon1>
+          <Icon2>favorite_border</Icon2>
+        </Scope>
+      </CardDetail>
     </CardWrapper>
   );
 };
 Card.propTypes = {
   image: PropTypes.string,
-  title: PropTypes.number,
+  title: PropTypes.string,
   author: PropTypes.string
 };
 
