@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
   display: flex;
+  position: static;
   flex-direction: column;
   font-size: 20px;
   justify-content: center;
   border-bottom: 1px solid #ececec;
+  background-color: white;
 `;
 
 export const MenuNav = styled.div`

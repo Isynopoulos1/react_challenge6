@@ -6,7 +6,7 @@ import { MainContainer } from "./Main.styles";
 //IMPORT COMPONENTS
 
 const Main = ({}) => {
-  return <MainContainer>hola</MainContainer>;
+  return <MainContainer>soy un main :P </MainContainer>;
 };
 
 export default Main;
