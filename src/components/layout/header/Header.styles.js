@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
   display: flex;
+  flex-direction: column;
   font-size: 20px;
   justify-content: center;
   border-bottom: 1px solid #ececec;
@@ -14,6 +15,13 @@ export const MenuNav = styled.div`
   align-items: center;
   right: 0;
   margin-right: 200px;
+`;
+
+export const PrimaryNav = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
 `;
 export const MenuLogin = styled.div`
   display: flex;
@@ -69,4 +77,32 @@ export const MenuImg = styled.img`
   margin-left: 20px;
   margin-right: 0;
   cursor: pointer;
+`;
+
+export const FiltersContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+`;
+export const Filters = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+`;
+export const BtnFilter = styled.div`
+  display: flex;
+`;
+export const Button = styled.image`
+  display: flex;
+`;
+
+export const BtnImg = styled.div`
+  display: flex;
+  width: 10px;
 `;
