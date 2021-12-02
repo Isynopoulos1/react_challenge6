@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const Card = styled.div`
-  display: flex;
-`;
-
 export const ItemsWrapper = styled.div`
   display: flex;
 `;

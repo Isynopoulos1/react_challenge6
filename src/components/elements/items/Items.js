@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 //IMPORT STYLES
 
-import { ItemsWrapper, Cards, Card } from "./Items.styles";
+import { ItemsWrapper, Cards } from "./Items.styles";
 
 //IMPORT COMPONENTS
-import "../card/Card";
+import Card from "../card/Card";
 
 const Items = ({ list }) => {
   const mappedList = list.map(card => (
