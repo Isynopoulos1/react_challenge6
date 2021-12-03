@@ -1,27 +1,48 @@
 import styled from "styled-components";
 
 export const CardWrapper = styled.div`
-  position: relative;
   display: flex;
-  width: 100%;
-  justify-content: center;
   flex-direction: column;
-  color: black;
+  position: relative;
+  width: 100%
+  height:auto;
+  justify-content: center;
   border: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+  left: 0;
+  top: 0;
 `;
 export const Image = styled.div`
   display: flex;
+  position: relative;
   border: 1px solid black;
-
+  width: 100%;
   height: 161px;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
 `;
 export const CardImage = styled.img`
   display: flex;
-  height: 100%;
-  left: 0;
   position: absolute;
+  left: 0;
   top: 0;
   width: 100%;
+  height: 161px;
+`;
+export const CardDetail = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+`;
+export const Project = styled.div`
+  display: flex;
+`;
+export const Scope = styled.div`
+  display: flex;
 `;
 export const Title = styled.h1`
   font-weight: bold;
@@ -40,6 +61,7 @@ export const Author = styled.div`
   font-family: helvetica;
   margin-left: 10px;
 `;
+
 export const Icon1 = styled.i`
   position: absolute;
   color: black;
@@ -51,16 +73,4 @@ export const Icon2 = styled.i`
   color: black;
   font-family: "Material Icons";
   font-size: 10px;
-`;
-export const CardDetail = styled.div`
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 404px;
-`;
-export const Project = styled.div`
-  display: flex;
-`;
-export const Scope = styled.div`
-  display: flex;
 `;

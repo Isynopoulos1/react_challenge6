@@ -21,7 +21,6 @@ const Card = ({ image, title, author }) => {
       <Image>
         <CardImage src={image} />
       </Image>
-
       <CardDetail>
         <Project>
           <Title>

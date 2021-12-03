@@ -14,7 +14,7 @@ export const list1 = [
   {
     image:
       "https://ik.imagekit.io/ppayaz/react_challenge6/Captura_de_Pantalla_2021-12-02_a_la_s__16.58.07_yAsYrhLXR8.png?updatedAt=1638485986089",
-    title: "Idele - Logo | Identity",
+    title: "Idele Identity",
     author: "Nil Brands"
   },
   {
