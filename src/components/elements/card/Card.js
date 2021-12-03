@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 //IMPORT STYLES
 import {
   CardWrapper,
+  ContentGrid,
   Title,
   Author,
   Icon1,
@@ -18,23 +19,25 @@ import {
 const Card = ({ image, title, author }) => {
   return (
     <CardWrapper>
-      <Image>
-        <CardImage src={image} />
-      </Image>
-      <CardDetail>
-        <Project>
-          <Title>
-            <p>{title}</p>
-          </Title>
-          <Author>
-            <p>{author}</p>
-          </Author>
-        </Project>
-        <Scope>
-          <Icon1>favorite_border</Icon1>
-          <Icon2>favorite_border</Icon2>
-        </Scope>
-      </CardDetail>
+      <ContentGrid>
+        <Image>
+          <CardImage src={image} />
+        </Image>
+        <CardDetail>
+          <Project>
+            <Title>
+              <p>{title}</p>
+            </Title>
+            <Author>
+              <p>{author}</p>
+            </Author>
+          </Project>
+          <Scope>
+            <Icon1>favorite_border</Icon1>
+            <Icon2>favorite_border</Icon2>
+          </Scope>
+        </CardDetail>
+      </ContentGrid>
     </CardWrapper>
   );
 };

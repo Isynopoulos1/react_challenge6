@@ -2,20 +2,29 @@ import styled from "styled-components";
 
 export const CardWrapper = styled.div`
   display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%
-  height:auto;
+  width: 100%;
+  height: auto;
   justify-content: center;
   border: 1px solid black;
   margin-top: 20px;
   padding-top: 20px;
   left: 0;
   top: 0;
+  &:first-of-type {
+    margin-left: 10px;
+  }
+`;
+export const ContentGrid = styled.div`
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin-right: 10px;
 `;
 export const Image = styled.div`
   display: flex;
-  position: relative;
   border: 1px solid black;
   width: 100%;
   height: 161px;
@@ -25,7 +34,6 @@ export const Image = styled.div`
 `;
 export const CardImage = styled.img`
   display: flex;
-  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
