@@ -13,7 +13,9 @@ import {
   CardDetail,
   Scope,
   Project,
-  Image
+  Image,
+  Like,
+  Visibility
 } from "./Card.styles";
 
 const Card = ({ image, title, author }) => {
@@ -33,8 +35,14 @@ const Card = ({ image, title, author }) => {
             </Author>
           </Project>
           <Scope>
-            <Icon1>favorite_border</Icon1>
-            <Icon2>favorite_border</Icon2>
+            <Like>
+              <Icon1>thumb_up</Icon1>
+              <p>32</p>
+            </Like>
+            <Visibility>
+              <Icon2>visibility</Icon2>
+              <p>32</p>
+            </Visibility>
           </Scope>
         </CardDetail>
       </ContentGrid>
