@@ -4,15 +4,17 @@ export const CardWrapper = styled.div`
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: space-between;
   border: 1px solid black;
   padding-top: 20px;
 `;
 export const ContentGrid = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   flex-direction: column;
   margin-right: 10px;
+  margin-left: 10px;
 `;
 export const Image = styled.div`
   display: flex;
@@ -27,13 +29,16 @@ export const CardImage = styled.img`
 `;
 export const CardDetail = styled.div`
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  justify-content: space-between;
   border: 1px solid black;
 `;
 export const Project = styled.div`
   display: flex;
   flex-direction: column;
+  left: 0;
 `;
 export const Scope = styled.div`
   display: flex;

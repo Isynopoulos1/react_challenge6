@@ -7,12 +7,13 @@ import { MainContainer } from "./Main.styles";
 import Items from "../../elements/items/Items";
 
 //IMPORT DATA
-import { list1 } from "../../data/cards";
+import { list1, list2 } from "../../data/cards";
 
 const Main = () => {
   return (
     <MainContainer>
       <Items list={list1} />
+      <Items list={list2} />
     </MainContainer>
   );
 };
