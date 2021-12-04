@@ -11,7 +11,7 @@ import Card from "../card/Card";
 const Items = ({ list }) => {
   const mappedList = list.map(card => (
     <Card
-      key={card.image}
+      key={card.i}
       image={card.image}
       title={card.title}
       author={card.author}
