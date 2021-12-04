@@ -15,10 +15,12 @@ import {
   Project,
   Image,
   Like,
-  Visibility
+  Visibility,
+  Likes,
+  Viewers
 } from "./Card.styles";
 
-const Card = ({ image, title, author, icon1, icon2 }) => {
+const Card = ({ image, title, author, icon1, icon2, likes, visibility }) => {
   return (
     <CardWrapper>
       <ContentGrid>
@@ -37,11 +39,11 @@ const Card = ({ image, title, author, icon1, icon2 }) => {
           <Scope>
             <Like>
               <Icon1>{icon1}</Icon1>
-              <p>32</p>
+              <Likes>{likes}</Likes>
             </Like>
             <Visibility>
               <Icon2>{icon2}</Icon2>
-              <p>32</p>
+              <Viewers>{visibility}</Viewers>
             </Visibility>
           </Scope>
         </CardDetail>
@@ -54,7 +56,9 @@ Card.propTypes = {
   title: PropTypes.string,
   author: PropTypes.string,
   icon1: PropTypes.string,
-  icon2: PropTypes.string
+  likes: PropTypes.string,
+  icon2: PropTypes.string,
+  visibility: PropTypes.string
 };
 
 Card.defaultProps = {
@@ -62,7 +66,9 @@ Card.defaultProps = {
   title: "",
   author: "",
   icon1: "",
-  icon2: ""
+  likes: "",
+  icon2: "",
+  visibility: ""
 };
 
 export default Card;

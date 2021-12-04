@@ -17,6 +17,8 @@ const Items = ({ list }) => {
       author={card.author}
       icon1={card.icon1}
       icon2={card.icon2}
+      likes={card.likes}
+      visibility={card.visibility}
     />
   ));
 
