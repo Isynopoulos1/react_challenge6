@@ -15,6 +15,8 @@ const Items = ({ list }) => {
       image={card.image}
       title={card.title}
       author={card.author}
+      icon1={card.icon1}
+      icon2={card.icon2}
     />
   ));
 

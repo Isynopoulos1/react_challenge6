@@ -18,7 +18,7 @@ import {
   Visibility
 } from "./Card.styles";
 
-const Card = ({ image, title, author }) => {
+const Card = ({ image, title, author, icon1, icon2 }) => {
   return (
     <CardWrapper>
       <ContentGrid>
@@ -36,11 +36,11 @@ const Card = ({ image, title, author }) => {
           </Project>
           <Scope>
             <Like>
-              <Icon1>thumb_up</Icon1>
+              <Icon1>{icon1}</Icon1>
               <p>32</p>
             </Like>
             <Visibility>
-              <Icon2>visibility</Icon2>
+              <Icon2>{icon2}</Icon2>
               <p>32</p>
             </Visibility>
           </Scope>
@@ -52,13 +52,17 @@ const Card = ({ image, title, author }) => {
 Card.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
-  author: PropTypes.string
+  author: PropTypes.string,
+  icon1: PropTypes.string,
+  icon2: PropTypes.string
 };
 
 Card.defaultProps = {
   image: "",
   title: "",
-  author: ""
+  author: "",
+  icon1: "",
+  icon2: ""
 };
 
 export default Card;
