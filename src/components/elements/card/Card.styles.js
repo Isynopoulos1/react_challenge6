@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const CardWrapper = styled.div`
   display: flex;
-
   width: 100%;
   height: 100%;
   justify-content: space-between;
@@ -11,24 +10,18 @@ export const CardWrapper = styled.div`
 `;
 export const ContentGrid = styled.div`
   display: flex;
-
   width: 100%;
-  justify-content: center;
   flex-direction: column;
-  left: 0;
   margin-right: 10px;
 `;
 export const Image = styled.div`
   display: flex;
-
   border: 1px solid black;
   width: 100%;
-  height: 161px;
   border-radius: 3px;
 `;
 export const CardImage = styled.img`
   display: flex;
-
   width: 100%;
   justify-content: center;
 `;
