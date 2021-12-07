@@ -2,11 +2,14 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
   display: flex;
+  position: sticky;
+  top: 0;
   width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #ececec;
   flex-direction: column;
   font-size: 20px;
   justify-content: center;
-  border-bottom: 1px solid #ececec;
   background-color: white;
 `;
 
