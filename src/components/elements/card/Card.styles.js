@@ -4,7 +4,6 @@ export const CardWrapper = styled.div`
   display: flex;
   width: 100%;
   height: 100%;
-  border: 1px solid black;
   padding-top: 20px;
 `;
 export const ContentGrid = styled.div`
@@ -18,14 +17,13 @@ export const ContentGrid = styled.div`
 `;
 export const Image = styled.div`
   display: flex;
-  border: 1px solid black;
   width: 100%;
-  border-radius: 3px;
 `;
 export const CardImage = styled.img`
   display: flex;
   width: 100%;
   justify-content: center;
+  border-radius: 5px;
 `;
 export const CardDetail = styled.div`
   display: flex;
@@ -33,7 +31,6 @@ export const CardDetail = styled.div`
   justify-content: center;
   width: 100%;
   justify-content: space-between;
-  border: 1px solid black;
 `;
 export const Project = styled.div`
   display: flex;
@@ -61,23 +58,34 @@ export const Author = styled.div`
 `;
 export const Like = styled.div`
   display: flex;
+  margin-right: 5px;
+  color: ##191919;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: helvetica;
 `;
 export const Visibility = styled.div`
   display: flex;
 `;
 export const Viewers = styled.div`
   display: flex;
+  color: ##191919;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: helvetica;
 `;
 export const Likes = styled.div`
   display: flex;
 `;
 export const Icon1 = styled.i`
   color: #959595;
+  margin-right: 5px;
   font-family: "Material Icons";
   font-size: 13px;
 `;
 export const Icon2 = styled.i`
   color: #959595;
+  margin-right: 5px;
   font-family: "Material Icons";
   font-size: 13px;
 `;
