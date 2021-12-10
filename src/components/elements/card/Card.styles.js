@@ -48,6 +48,9 @@ export const Title = styled.h1`
   margin-bottom: 2px;
   margin-top: 20px;
   margin-left: 10px;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 export const Author = styled.div`
   font-weight: lighter;
