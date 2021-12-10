@@ -40,7 +40,7 @@ export const Project = styled.div`
 export const Scope = styled.div`
   display: flex;
 `;
-export const Title = styled.h1`
+export const Title = styled.p`
   font-weight: bold;
   font-size: 12px;
   color: black;
@@ -51,13 +51,18 @@ export const Title = styled.h1`
   &:hover {
     text-decoration: underline;
   }
+  cursor: pointer;
 `;
-export const Author = styled.div`
+export const Author = styled.p`
   font-weight: lighter;
   color: #444;
   font-size: 10px;
   font-family: helvetica;
   margin-left: 10px;
+  &:hover {
+    text-decoration: underline;
+  }
+  cursor: pointer;
 `;
 export const Like = styled.div`
   display: flex;
